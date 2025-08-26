@@ -48,3 +48,9 @@ The bot can **answer questions about your local documents** (PDF, TXT, etc.) by 
 6. **Open your browser and visit:**
     ```cpp
     http://127.0.0.1:5000
+
+
+## Example
+<img width="482" height="380" alt="Screenshot 2025-08-26 121202" src="https://github.com/user-attachments/assets/04e09d06-78d6-473f-bad6-dbe3f733ab5d" />
+
+
