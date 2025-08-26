@@ -34,7 +34,7 @@ The bot can **answer questions about your local documents** (PDF, TXT, etc.) by 
    ```bash
    pip install -r requirements.txt
 
-4. **Set up environment variables**
+4. **Set up environment variables in the .env file**
    ```env
    GOOGLE_API_KEY=your_google_api_key_here
 
