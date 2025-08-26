@@ -3,7 +3,8 @@
 This project is a simple **Retrieval-Augmented Generation (RAG) chatbot** built with:
 - [Google Gemini](https://ai.google.dev/) for LLM responses  
 - [LangChain](https://www.langchain.com/) for retrieval & orchestration  
-- [FAISS](https://github.com/facebookresearch/faiss) for vector search  
+- [FAISS](https://github.com/facebookresearch/faiss) for vector search
+- [Hugging Face Sentence Transformers](https://huggingface.co/sentence-transformers) for embeddings
 - [Flask](https://flask.palletsprojects.com/) for the web app  
 
 The bot can **answer questions about your local documents** (PDF, TXT, etc.) by combining document search with LLM reasoning.
