@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gemini RAG Bot</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        textarea { width: 100%; height: 100px; }
+        button { margin-top: 10px; padding: 10px; }
+        .response { margin-top: 20px; padding: 15px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h1>📄 Gemini RAG Bot</h1>
+    <form method="post">
+        <textarea name="query" placeholder="Ask me something..."></textarea><br>
+        <button type="submit">Ask</button>
+    </form>
+    {% if answer %}
+    <div class="response">
+        <strong>Answer:</strong>
+        <p>{{ answer }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>

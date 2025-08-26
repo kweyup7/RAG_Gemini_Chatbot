@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Environment
+venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE / Editors
+.vscode/
+.idea/
+
+# Flask / Web
+instance/
+*.pid
+
+# Uploads / Data
+data/
+uploads/
