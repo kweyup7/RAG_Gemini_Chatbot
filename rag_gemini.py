@@ -5,6 +5,7 @@ import google.generativeai as genai
 from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 
@@ -22,7 +23,9 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
 chunks = splitter.split_documents(docs)
 
 # 4. Create embeddings using Gemini
-embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+###embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+
 vectorstore = FAISS.from_documents(chunks, embeddings)
 
 # 5. Use Gemini for the chat model
