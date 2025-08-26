@@ -22,7 +22,7 @@ The bot can **answer questions about your local documents** (PDF, TXT, etc.) by 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/rag-chatbot-gemini.git
+   git clone https://github.com/kweyup7/RAG_Gemini_Chatbot.git
    cd rag_bot_gemini
    
 2. **Create a Virtual environment**
