@@ -68,11 +68,25 @@
             cursor: pointer;
         }
         button:hover { background: #0056b3; }
+        .clear-btn {
+            background-color: #dc3545;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .clear-btn:hover {
+            background-color: #c82333;
+        }
     </style>
 </head>
 <body>
     <div class="chat-container">
-        <h1>💬 Gemini RAG Bot</h1>
+        <div class="header">
+            <h1>💬 Gemini RAG Bot</h1>
+            <a href="{{ url_for('clear_history') }}" class="clear-btn">Clear Conversation</a>
+        </div>
         <div class="chat-box">
             {% for msg in chat_history %}
                 <div class="message {{ msg.role }}">
