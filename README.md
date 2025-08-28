@@ -7,7 +7,7 @@ This project is a simple **Retrieval-Augmented Generation (RAG) chatbot** built 
 - [Hugging Face Sentence Transformers](https://huggingface.co/sentence-transformers) for embeddings
 - [Flask](https://flask.palletsprojects.com/) for the web app  
 
-The bot can **answer questions about your local documents** (PDF, TXT, etc.) by combining document search with LLM reasoning.
+The bot can **answer questions about your local documents** (PDF) by combining document search with LLM reasoning.
 
 ---
 
