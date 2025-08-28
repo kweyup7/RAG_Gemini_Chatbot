@@ -52,5 +52,7 @@ The bot can **answer questions about your local documents** (PDF, TXT, etc.) by 
 
 ## Example
 <img width="482" height="380" alt="Screenshot 2025-08-26 121202" src="https://github.com/user-attachments/assets/04e09d06-78d6-473f-bad6-dbe3f733ab5d" />
+<img width="482" height="380" alt="Screenshot 2025-08-28 160225" src="https://github.com/user-attachments/assets/6945ce5c-1a39-4884-9542-b7c0fc15ef3c" />
+
 
 
